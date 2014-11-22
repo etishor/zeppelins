@@ -15,7 +15,7 @@ namespace DistributedWorkshop.Seeker
         {
 			string serverPrefix = "tcp://192.168.1.{0}:5559";
 
-			int rangeStart = 23;
+			int rangeStart = 20;
 			int rangeEnd = 25;
 
 			using(NetMQContext ctx = NetMQContext.Create())
@@ -37,7 +37,7 @@ namespace DistributedWorkshop.Seeker
 				{
 					try
 					{
-						Console.WriteLine(client.ReceiveString(TimeSpan.FromSeconds(2)));
+						Console.WriteLine(client.ReceiveString());
 					}catch{
 						Console.WriteLine(".");
 					}
