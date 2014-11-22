@@ -38,7 +38,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 	EndGlobalSection
 	GlobalSection(MonoDevelopProperties) = preSolution
-		StartupItem = DistributedWorkshop\DistributedWorkshop.csproj
+		StartupItem = DistributedWorkshop.Seeker\DistributedWorkshop.Seeker.csproj
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
